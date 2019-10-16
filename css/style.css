@@ -39,6 +39,7 @@ h1 {
     margin: auto;
 }
 
+
 .preamble{
     width: 80%;
     margin: auto;
@@ -83,9 +84,20 @@ h1 {
     margin:auto;
 }
 
+.requirements p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
 .benefits {
     background: url(../img/bamboo.png);
     background-color: rgba(120, 168, 120, 0.6);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.benefits p {
+    margin-bottom: 10px;
 }
 
 p[role="contentinfo"] {
@@ -119,7 +131,7 @@ p {
 
 .wrapper {
     background-color: rgba(120, 168, 120, 0.6);
-
+    margin-top:-18px;
 }
 
 li a {
@@ -131,6 +143,7 @@ li a {
 ul {
     list-style: none;
     width: 100%;
+    margin-left:-40px;
 }
 
 li {
@@ -139,7 +152,7 @@ li {
     text-align: center;
     height: 75px;
     line-height: 75px;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid gray;
     left: 0;
 }
 
@@ -157,4 +170,34 @@ p[role="contentinfo"] a {
     color: white;
     font-family: Satisfy;
     font-size: 30px;
+    text-decoration: none;
+}
+
+p[role="contentinfo"] a:hover{
+    text-decoration: underline;
+}
+
+.designer-name {
+    color: gray;
+}
+
+h3.archives {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+h3.resources {
+    visibility: hidden;
+    
+}
+
+.zen-resources li {
+    background: url(../img/bamboo.png);
+    background-color: rgba(41, 85, 41, 0.6);
+}
+
+.zen-resources ul {
+    margin-top:-19px;
+    background: url(../img/bamboo.png);
 }
