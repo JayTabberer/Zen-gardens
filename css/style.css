@@ -136,10 +136,25 @@ ul {
 li {
     width: 50%;
     float: left;
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+    border-bottom: 2px solid gray;
+    left: 0;
 }
 
 h3.select {
     visibility: hidden;
     height: 0;
     width: 0;
+}
+
+p[role="contentinfo"]{
+    color: gray;
+}
+
+p[role="contentinfo"] a {
+    color: white;
+    font-family: Satisfy;
+    font-size: 30px;
 }
