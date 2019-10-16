@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+    margin:0;
+    padding:0;
+}
+
+.summary p {
+    line-height: normal;
+}
+
+h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    padding-bottom:40px;
+}
+
+header {
+    color: white;
+    text-shadow: black;
+    padding-top: 40px;
+    background: url(../img/huntington.png);
+    font-family: "Satisfy";
+}
+
+h1 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+
+.summary {
+    width: 80%;
+    margin: auto;
+}
+
+.preamble{
+    width: 80%;
+    margin: auto;
+}
+
+.explanation {
+    width: 80%;
+    margin: auto;
+}
+
+.participation {
+    background: url(../img/bamboo.png);
+    background-color: rgba(120, 168, 120, 0.6);
+    margin: auto;
+    width: 80;
+}
+
+.participation h3 {
+    width: 80%;
+    margin: auto;
+}
+
+.participation p {
+    width:80%;
+    margin:auto;
+    color: white;
+}
+
+.benefits h3 {
+    width:80%;
+    margin:auto;
+}
+
+.benefits p {
+    width:80%;
+    margin:auto;
+    color: white;
+}
+
+.requirements h3, .requirements p {
+    width:80%;
+    margin:auto;
+}
+
+.benefits {
+    background: url(../img/bamboo.png);
+    background-color: rgba(120, 168, 120, 0.6);
+}
+
+p[role="contentinfo"] {
+    background-color: rgba(120, 168, 120, 0.6);
+    height: 80px;
+    width:100%;
+    line-height: 80px;
+    margin:auto;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(27, 88, 31);
+    font-size: 30px;
+}
+
+footer a {
+    color: white;
+}
+
+h3 {
+    line-height: 2;
+    color: black;
+}
+
+p {
+    font-family: "IBM Plex Mono";
+    font-size: 12px;
+}
+
+.wrapper {
+    background-color: rgba(120, 168, 120, 0.6);
+
+}
+
+li a {
+    font-size: 11px;
+    color: black;
+
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+}
+
+li {
+    width: 50%;
+    float: left;
+}
